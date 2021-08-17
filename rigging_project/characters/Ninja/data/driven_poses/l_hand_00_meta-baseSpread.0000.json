@@ -1,0 +1,32 @@
+{
+    "l_pinky_finger_00_fk_00_ctl": {
+        "rotate": [
+            0.0,
+            21.739178831798178,
+            0.0
+        ]
+    },
+    "l_thumb_finger_00_fk_00_ctl": {
+        "rotate": [
+            0.0,
+            -21.655470693030686,
+            0.0
+        ]
+    },
+    "driver_value": 10.0,
+    "driver": "l_arm_00_param_00_ctl",
+    "l_index_finger_00_fk_00_ctl": {
+        "rotate": [
+            0.0,
+            -15.798258815378214,
+            0.0
+        ]
+    },
+    "l_ring_finger_00_fk_00_ctl": {
+        "rotate": [
+            0.0,
+            10.53004485519964,
+            0.0
+        ]
+    }
+}

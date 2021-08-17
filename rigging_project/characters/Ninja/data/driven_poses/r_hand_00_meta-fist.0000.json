@@ -1,0 +1,107 @@
+{
+    "r_index_finger_00_fk_02_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -81.47378328698852
+        ]
+    },
+    "r_ring_finger_00_fk_01_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_pinky_finger_00_fk_01_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_pinky_finger_00_fk_00_ctl": {},
+    "r_thumb_finger_00_fk_00_ctl": {},
+    "r_thumb_finger_00_fk_01_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -48.110461470441194
+        ]
+    },
+    "r_middle_finger_00_fk_00_ctl": {},
+    "r_index_finger_00_fk_03_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_middle_finger_00_fk_03_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_ring_finger_00_fk_02_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_pinky_finger_00_fk_02_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_index_finger_00_fk_00_ctl": {},
+    "r_index_finger_00_fk_01_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_ring_finger_00_fk_03_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "driver_value": 10.0,
+    "r_pinky_finger_00_fk_03_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_middle_finger_00_fk_02_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -70.1237595418227
+        ]
+    },
+    "r_middle_finger_00_fk_01_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -61.37145504659481
+        ]
+    },
+    "r_thumb_finger_00_fk_02_ctl": {
+        "rotate": [
+            0.0,
+            0.0,
+            -83.17806318307241
+        ]
+    },
+    "r_ring_finger_00_fk_00_ctl": {},
+    "driver": "r_arm_00_param_00_ctl"
+}
