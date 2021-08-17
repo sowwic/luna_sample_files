@@ -22,3 +22,9 @@
 - Set current asset by typing it's name into "Asset name" field. (Ninja, Pawn, PhoneBox)
 - Navigate to builder's file menu, press ***Open build*** and select existing build file.
 - Navigate to builders's graph menu, press ***Execute*** (F5 shortcut, when builder is focused).
+
+## Included rigs
+---
+![Ninja](docs/images/ninja.png)
+![Pawn_spider](docs/images/pawn_spider.png)
+![PhoneBox](docs/images/phonebox.png)
