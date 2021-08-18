@@ -1,0 +1,3425 @@
+{
+    "id": 1882304962008, 
+    "vars": {
+        "Character": [
+            null, 
+            "CHARACTER"
+        ], 
+        "Hand Control": [
+            null, 
+            "CONTROL"
+        ], 
+        "Base Control": [
+            null, 
+            "CONTROL"
+        ], 
+        "Phone Component": [
+            null, 
+            "SIMPLE_COMPONENT"
+        ], 
+        "Wire": [
+            null, 
+            "WIRE_COMPONENT"
+        ]
+    }, 
+    "scene_width": 64000, 
+    "scene_height": 64000, 
+    "nodes": [
+        {
+            "id": 1882897536112, 
+            "node_id": 101, 
+            "title": "Input", 
+            "pos_x": -254.0, 
+            "pos_y": -97.0, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882897535944, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897536168, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Asset Name", 
+                    "value": "Phonebox"
+                }
+            ]
+        }, 
+        {
+            "id": 1882897536616, 
+            "node_id": 7, 
+            "title": "Character", 
+            "pos_x": 38.125, 
+            "pos_y": -20.937499999999996, 
+            "inputs": [
+                {
+                    "id": 1882897536448, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897536672, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897536728, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882897536784, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "Phonebox"
+                }, 
+                {
+                    "id": 1882897536840, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": "character"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882897536504, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897536896, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897536952, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897537008, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897537064, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882897537120, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "Phonebox"
+                }, 
+                {
+                    "id": 1882897537176, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882897537232, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Root Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897537288, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Deformation Rig", 
+                    "value": "deformation_rig"
+                }, 
+                {
+                    "id": 1882897537344, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Control Rig", 
+                    "value": "control_rig"
+                }, 
+                {
+                    "id": 1882897537400, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Geometry Group", 
+                    "value": "geometry_grp"
+                }
+            ]
+        }, 
+        {
+            "id": 1882897537680, 
+            "node_id": 103, 
+            "title": "Set Character", 
+            "pos_x": 311.25, 
+            "pos_y": 3.75, 
+            "inputs": [
+                {
+                    "id": 1882897537904, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538016, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882897537960, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2561505795096, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1882897538352, 
+            "node_id": 5, 
+            "title": "Sequence", 
+            "pos_x": 640.0, 
+            "pos_y": -78.75, 
+            "inputs": [
+                {
+                    "id": 1882897538296, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882897537848, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538464, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538520, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538576, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538632, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538688, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1882897538912, 
+            "node_id": 2, 
+            "title": "Phone Hand Control", 
+            "pos_x": 1638.8973236083975, 
+            "pos_y": -3045.196456909178, 
+            "inputs": [
+                {
+                    "id": 1882897538744, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882897538968, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "hand"
+                }, 
+                {
+                    "id": 1882897539024, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882896035912, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Guide", 
+                    "value": "c_phone_hand_00_loc"
+                }, 
+                {
+                    "id": 1882896035968, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Delete Guide", 
+                    "value": false
+                }, 
+                {
+                    "id": 1882896036024, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882896036080, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Attributes", 
+                    "value": "tr"
+                }, 
+                {
+                    "id": 1882896036136, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Position", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882896036192, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882896036248, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Pivot", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882896036304, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Color", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1882896036360, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Offset Group", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882896036416, 
+                    "index": 12, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Joint", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882896036472, 
+                    "index": 13, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Shape", 
+                    "value": "cube"
+                }, 
+                {
+                    "id": 1882896036528, 
+                    "index": 14, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882896036584, 
+                    "index": 15, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882896036640, 
+                    "index": 16, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Axis", 
+                    "value": "x"
+                }, 
+                {
+                    "id": 1882896036696, 
+                    "index": 17, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": 1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882897538800, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882896036752, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882896036808, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_hand_00_ctl"
+                }
+            ]
+        }, 
+        {
+            "id": 1882883370232, 
+            "node_id": 2, 
+            "title": "Phone Base Control", 
+            "pos_x": 1878.5867767333993, 
+            "pos_y": -3039.246261596678, 
+            "inputs": [
+                {
+                    "id": 1882883369952, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882883370288, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "base"
+                }, 
+                {
+                    "id": 1882883370344, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882883370400, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Guide", 
+                    "value": "c_phone_hand_00_loc"
+                }, 
+                {
+                    "id": 1882883370456, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Delete Guide", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370512, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882883370568, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Attributes", 
+                    "value": "tr"
+                }, 
+                {
+                    "id": 1882883370624, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Position", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370680, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370736, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Pivot", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370792, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Color", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1882883370848, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Offset Group", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370904, 
+                    "index": 12, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Joint", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882883370960, 
+                    "index": 13, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Shape", 
+                    "value": "cube"
+                }, 
+                {
+                    "id": 1882889953352, 
+                    "index": 14, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882889953408, 
+                    "index": 15, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882889953464, 
+                    "index": 16, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Axis", 
+                    "value": "x"
+                }, 
+                {
+                    "id": 1882889953520, 
+                    "index": 17, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": 1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882883370120, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882889953576, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882889953632, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_base_00_ctl"
+                }
+            ]
+        }, 
+        {
+            "id": 1882889956488, 
+            "node_id": 103, 
+            "title": "Set Base Control", 
+            "pos_x": 2210.5770111083975, 
+            "pos_y": -3212.0323944091783, 
+            "inputs": [
+                {
+                    "id": 1882885827944, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882885828168, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882885827608, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2561496380360, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Base Control"
+        }, 
+        {
+            "id": 1882889955872, 
+            "node_id": 103, 
+            "title": "Set Hand Control", 
+            "pos_x": 2220.5770111083975, 
+            "pos_y": -3310.7823944091783, 
+            "inputs": [
+                {
+                    "id": 1882885827888, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882885828336, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882885828224, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2561496380752, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Hand Control"
+        }, 
+        {
+            "id": 1882891186584, 
+            "node_id": 15, 
+            "title": "Phone Component", 
+            "pos_x": 1727.7776947021475, 
+            "pos_y": -2196.650314331052, 
+            "inputs": [
+                {
+                    "id": 1882891186528, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882895241624, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754747024, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882754748088, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "phone"
+                }, 
+                {
+                    "id": 1882754748144, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882754746632, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754747528, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882895241568, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754746072, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754748032, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754745344, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754747304, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1882754744560, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "phone"
+                }, 
+                {
+                    "id": 1882754745624, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1882754747696, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882754747976, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1882754747192, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 1514.7151947021457, 
+            "pos_y": -2162.275314331052, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882754747640, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1882835791544, 
+            "node_id": 100, 
+            "title": "Add Control", 
+            "pos_x": 2474.4964447021457, 
+            "pos_y": -2098.369064331053, 
+            "inputs": [
+                {
+                    "id": 1882835790984, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882835791376, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882835791432, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882835791656, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "As Hook", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882679749824, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Bind Joint", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882835788520, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.simple_component.SimpleComponent.add_existing_control"
+        }, 
+        {
+            "id": 1882835790928, 
+            "node_id": 104, 
+            "title": "Get Hand Control", 
+            "pos_x": 2244.2464447021457, 
+            "pos_y": -1995.2440643310522, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882890012320, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Hand Control"
+        }, 
+        {
+            "id": 1882896001960, 
+            "node_id": 103, 
+            "title": "Set Phone Component", 
+            "pos_x": 1984.2464447021457, 
+            "pos_y": -2106.806564331052, 
+            "inputs": [
+                {
+                    "id": 1882895252448, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882895252896, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882895251048, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2561496382600, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Phone Component"
+        }, 
+        {
+            "id": 1882923290184, 
+            "node_id": 100, 
+            "title": "Add Control", 
+            "pos_x": 2475.4339447021457, 
+            "pos_y": -2298.994064331052, 
+            "inputs": [
+                {
+                    "id": 1882923290576, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882922852080, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882922850736, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882935320648, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "As Hook", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882935320872, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Bind Joint", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882895253400, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.simple_component.SimpleComponent.add_existing_control"
+        }, 
+        {
+            "id": 1882896036472, 
+            "node_id": 104, 
+            "title": "Get Base Control", 
+            "pos_x": 2231.1214447021457, 
+            "pos_y": -2358.369064331053, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882679749712, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Base Control"
+        }, 
+        {
+            "id": 1882912140704, 
+            "node_id": 100, 
+            "title": "Constrain Geometry", 
+            "pos_x": 2490.7464447021475, 
+            "pos_y": -1895.556564331053, 
+            "inputs": [
+                {
+                    "id": 1882912028712, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882912154064, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882912155408, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Geometry", 
+                    "value": "Phone_lp"
+                }, 
+                {
+                    "id": 1882912155632, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882912155968, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Inherits Transfom", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882912029664, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.constrain_geometry"
+        }, 
+        {
+            "id": 1882912027088, 
+            "node_id": 20, 
+            "title": "Wire", 
+            "pos_x": 2154.4307708740225, 
+            "pos_y": -1536.426925659179, 
+            "inputs": [
+                {
+                    "id": 1882874145368, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006180824, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006178640, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1883006179536, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "cord"
+                }, 
+                {
+                    "id": 1883006389944, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1883006232392, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006232112, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006232784, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Curve", 
+                    "value": "c_cord_00_crv"
+                }, 
+                {
+                    "id": 1883006233568, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Geometry", 
+                    "value": "PhoneCable_lp"
+                }, 
+                {
+                    "id": 1883006233848, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Dropoff", 
+                    "value": 100.0
+                }, 
+                {
+                    "id": 1883006233344, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Number Controls", 
+                    "value": 4
+                }, 
+                {
+                    "id": 1883006233624, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Control Lines", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882874142792, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006231832, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006231664, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006233288, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006233680, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1883006233456, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "cord"
+                }, 
+                {
+                    "id": 1883006232056, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1883006232840, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883006234520, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1883006234016, 
+            "node_id": 103, 
+            "title": "Set Wire", 
+            "pos_x": 2469.1651458740243, 
+            "pos_y": -1511.661300659179, 
+            "inputs": [
+                {
+                    "id": 1882849626096, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882849627776, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Wire Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882849625984, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2561496548800, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Wire"
+        }, 
+        {
+            "id": 1882874255288, 
+            "node_id": 13, 
+            "title": "String: c_cord_00_crv", 
+            "pos_x": 1862.8536224365225, 
+            "pos_y": -1351.099777221679, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883006178976, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "c_cord_00_crv"
+                }
+            ]
+        }, 
+        {
+            "id": 1883006231944, 
+            "node_id": 13, 
+            "title": "String: PhoneCable_lp", 
+            "pos_x": 1872.2286224365225, 
+            "pos_y": -1269.849777221679, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882924544520, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "PhoneCable_lp"
+                }
+            ]
+        }, 
+        {
+            "id": 1883131869952, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 1934.8250579833966, 
+            "pos_y": -762.471847534179, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883131871016, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1883138885112, 
+            "node_id": 100, 
+            "title": "Get Root Control", 
+            "pos_x": 2318.5906829833957, 
+            "pos_y": -971.299972534179, 
+            "inputs": [
+                {
+                    "id": 1883138887184, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883140627424, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883138886456, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883140627760, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Root Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.get_root_control"
+        }, 
+        {
+            "id": 1883138887128, 
+            "node_id": 24, 
+            "title": "Add Toggle Attribute", 
+            "pos_x": 2328.3406829833957, 
+            "pos_y": -761.299972534179, 
+            "inputs": [
+                {
+                    "id": 1883140628040, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883140626864, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Node", 
+                    "value": "c_character_node__ctl"
+                }, 
+                {
+                    "id": 1883110049832, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "boxVisibility"
+                }, 
+                {
+                    "id": 1883110050672, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Value", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883140627872, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1882311271928, 
+            "node_id": 24, 
+            "title": "Add Toggle Attribute", 
+            "pos_x": 2329.5906829833957, 
+            "pos_y": -613.7999725341792, 
+            "inputs": [
+                {
+                    "id": 1883098406864, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883098403616, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Node", 
+                    "value": "c_character_node__ctl"
+                }, 
+                {
+                    "id": 1883098403336, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "phoneVisibility"
+                }, 
+                {
+                    "id": 1883098403056, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Value", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883098406808, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1882879101696, 
+            "node_id": 100, 
+            "title": "Get Transform", 
+            "pos_x": 2326.0906829833957, 
+            "pos_y": -866.299972534179, 
+            "inputs": [
+                {
+                    "id": 1883098327696, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882491539352, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883098327136, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882491536552, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_character_node__ctl"
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.get_transform"
+        }, 
+        {
+            "id": 1882928725688, 
+            "node_id": 13, 
+            "title": "String: boxVisibility", 
+            "pos_x": 2030.8406829833966, 
+            "pos_y": -468.7999725341793, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883006231328, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "boxVisibility"
+                }
+            ]
+        }, 
+        {
+            "id": 1882928893456, 
+            "node_id": 13, 
+            "title": "String: phoneVisibility", 
+            "pos_x": 2033.3406829833966, 
+            "pos_y": -382.5499725341793, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882930025416, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "phoneVisibility"
+                }
+            ]
+        }, 
+        {
+            "id": 1882917166216, 
+            "node_id": 14, 
+            "title": "Boolean: True", 
+            "pos_x": 2053.3406829833966, 
+            "pos_y": -295.0499725341793, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882917107864, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": true
+                }
+            ]
+        }, 
+        {
+            "id": 1883011737080, 
+            "node_id": 23, 
+            "title": "Connect Attributes", 
+            "pos_x": 2731.1531829833957, 
+            "pos_y": -590.6749725341792, 
+            "inputs": [
+                {
+                    "id": 1883011737136, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882930816952, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Source Node", 
+                    "value": "c_character_node__ctl"
+                }, 
+                {
+                    "id": 1882930817008, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Source Attribute", 
+                    "value": "boxVisibility"
+                }, 
+                {
+                    "id": 1882930817064, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Destination Node", 
+                    "value": "static_geo_grp"
+                }, 
+                {
+                    "id": 1882930817120, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Destination Attribute", 
+                    "value": "visibility"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882930816896, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1882930817288, 
+            "node_id": 23, 
+            "title": "Connect Attributes", 
+            "pos_x": 2732.0906829833957, 
+            "pos_y": -398.7999725341793, 
+            "inputs": [
+                {
+                    "id": 1882930817232, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882930817512, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Source Node", 
+                    "value": "c_character_node__ctl"
+                }, 
+                {
+                    "id": 1882930817568, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Source Attribute", 
+                    "value": "phoneVisibility"
+                }, 
+                {
+                    "id": 1882930817624, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Destination Node", 
+                    "value": "phone_box_grp"
+                }, 
+                {
+                    "id": 1882930817680, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Destination Attribute", 
+                    "value": "visibility"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882930817456, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1883189455616, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 1919.9218749999982, 
+            "pos_y": 132.8124999999999, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883189456288, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1883189455224, 
+            "node_id": 100, 
+            "title": "Get Root Control", 
+            "pos_x": 2137.749999999998, 
+            "pos_y": -22.499999999999986, 
+            "inputs": [
+                {
+                    "id": 1883189483112, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883189408432, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883189483504, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883189410840, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Root Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.get_root_control"
+        }, 
+        {
+            "id": 1883142236536, 
+            "node_id": 100, 
+            "title": "Constrain Geometry", 
+            "pos_x": 2601.4999999999977, 
+            "pos_y": 168.74999999999986, 
+            "inputs": [
+                {
+                    "id": 1883142236760, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883142237264, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883142238160, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Geometry", 
+                    "value": "static_geo_grp"
+                }, 
+                {
+                    "id": 1883142237936, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": true
+                }, 
+                {
+                    "id": 1883142237992, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Inherits Transfom", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883142237880, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.constrain_geometry"
+        }, 
+        {
+            "id": 1882840069288, 
+            "node_id": 100, 
+            "title": "Constrain Geometry", 
+            "pos_x": 2603.8505859374973, 
+            "pos_y": 362.08496093749955, 
+            "inputs": [
+                {
+                    "id": 1883183611800, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883183610400, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882840080792, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Geometry", 
+                    "value": "phone_box_grp"
+                }, 
+                {
+                    "id": 1882840083760, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": true
+                }, 
+                {
+                    "id": 1882930759384, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Inherits Transfom", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883183611352, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.constrain_geometry"
+        }, 
+        {
+            "id": 1883015273160, 
+            "node_id": 5, 
+            "title": "Sequence", 
+            "pos_x": 1407.012939453124, 
+            "pos_y": 1561.5844726562489, 
+            "inputs": [
+                {
+                    "id": 1883015273104, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883015271200, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015241624, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015238320, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015239440, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015239104, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015238432, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1883015369784, 
+            "node_id": 104, 
+            "title": "Get Wire", 
+            "pos_x": 2100.6835937499986, 
+            "pos_y": 1064.9414062499993, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883015369112, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Wire Component", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Wire"
+        }, 
+        {
+            "id": 1883015273384, 
+            "node_id": 100, 
+            "title": "List Controls", 
+            "pos_x": 2450.171874999998, 
+            "pos_y": 783.2031249999994, 
+            "inputs": [
+                {
+                    "id": 1883015372752, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015369168, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "AnimComponent", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883015371240, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015369000, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Controls", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.component.AnimComponent.list_controls"
+        }, 
+        {
+            "id": 1883015398176, 
+            "node_id": 100, 
+            "title": "Get Control", 
+            "pos_x": 2747.0, 
+            "pos_y": 918.0, 
+            "inputs": [
+                {
+                    "id": 1883015399352, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015397952, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "LIST", 
+                    "max_connections": 1, 
+                    "label": "List", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015399520, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Index", 
+                    "value": -1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883015398960, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015399968, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Item", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "__builtin__.list.get_item_from_list(control)"
+        }, 
+        {
+            "id": 1883009655024, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 3030.0, 
+            "pos_y": 999.0, 
+            "inputs": [
+                {
+                    "id": 1883015321024, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882842298520, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882842299584, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882842299416, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "hand"
+                }, 
+                {
+                    "id": 1882842299864, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883015321248, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1883011577784, 
+            "node_id": 104, 
+            "title": "Get Hand Control", 
+            "pos_x": 2748.0, 
+            "pos_y": 1085.0, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883011575992, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Hand Control"
+        }, 
+        {
+            "id": 1883189410280, 
+            "node_id": 100, 
+            "title": "Add World Space", 
+            "pos_x": 3028.9999999999995, 
+            "pos_y": 1174.9999999999998, 
+            "inputs": [
+                {
+                    "id": 1882911903136, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882924720536, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883104611688, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883189456680, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_world_space"
+        }, 
+        {
+            "id": 1882842121216, 
+            "node_id": 104, 
+            "title": "Get Hand Control", 
+            "pos_x": 2169.5117187499995, 
+            "pos_y": 1470.5078125, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1882911954928, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Hand Control"
+        }, 
+        {
+            "id": 1883009655248, 
+            "node_id": 100, 
+            "title": "Add World Space", 
+            "pos_x": 2635.2499999999977, 
+            "pos_y": 1391.562499999999, 
+            "inputs": [
+                {
+                    "id": 1882842297512, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015240560, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883015238096, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883015157464, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_world_space"
+        }, 
+        {
+            "id": 1883011546976, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 2628.9999999999977, 
+            "pos_y": 1549.999999999999, 
+            "inputs": [
+                {
+                    "id": 1883132455680, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883189455112, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883189454048, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883189454328, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "Cord Root"
+                }, 
+                {
+                    "id": 1883189484512, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883132455288, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1882948201440, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 2622.0781249999977, 
+            "pos_y": 1728.0078124999986, 
+            "inputs": [
+                {
+                    "id": 1882490207144, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882911903696, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882911902632, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1882842194664, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "Base"
+                }, 
+                {
+                    "id": 1883011741344, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1882911902520, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1883251672176, 
+            "node_id": 104, 
+            "title": "Get Wire", 
+            "pos_x": 2131.8749999999986, 
+            "pos_y": 1648.124999999999, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883259177504, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Wire Component", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Wire"
+        }, 
+        {
+            "id": 1883259177560, 
+            "node_id": 100, 
+            "title": "Get Root Control", 
+            "pos_x": 2367.7499999999986, 
+            "pos_y": 1303.7499999999989, 
+            "inputs": [
+                {
+                    "id": 1883259177784, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883259177952, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "WIRE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Wire", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883259177840, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883259178008, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.wire_component.WireComponent.get_root_control"
+        }, 
+        {
+            "id": 1883251254328, 
+            "node_id": 104, 
+            "title": "Get Base Control", 
+            "pos_x": 2353.124999999998, 
+            "pos_y": 1731.7968749999993, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883251253768, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Base Control"
+        }, 
+        {
+            "id": 1883251254608, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 2022.4218749999982, 
+            "pos_y": 2046.5624999999982, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883251642496, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1883165641248, 
+            "node_id": 100, 
+            "title": "Attach To Skeleton", 
+            "pos_x": 2205.093749999998, 
+            "pos_y": 1978.4374999999982, 
+            "inputs": [
+                {
+                    "id": 1883165641808, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883156970016, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883165642704, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.attach_to_skeleton"
+        }, 
+        {
+            "id": 1882911902296, 
+            "node_id": 100, 
+            "title": "Import Control Shapes", 
+            "pos_x": 2553.7499999999977, 
+            "pos_y": 1981.2499999999982, 
+            "inputs": [
+                {
+                    "id": 1883251133072, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883251132904, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.importexport.control_shapes.import_asset_shapes"
+        }, 
+        {
+            "id": 1883252503664, 
+            "node_id": 100, 
+            "title": "Set Publish Mode", 
+            "pos_x": 2188.999999999998, 
+            "pos_y": 2208.749999999998, 
+            "inputs": [
+                {
+                    "id": 1883251366040, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883251592160, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883251590144, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Publish Ready", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1883251365648, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.set_publish_mode"
+        }, 
+        {
+            "id": 1883251443472, 
+            "node_id": 14, 
+            "title": "Boolean: True", 
+            "pos_x": 2009.9999999999982, 
+            "pos_y": 2351.2499999999977, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1883132658016, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": true
+                }
+            ]
+        }, 
+        {
+            "id": 1883304398184, 
+            "node_id": 102, 
+            "title": "Output", 
+            "pos_x": 2600.937499999997, 
+            "pos_y": 2230.3124999999973, 
+            "inputs": [
+                {
+                    "id": 1883304397008, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1883304396616, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": []
+        }, 
+        {
+            "id": 2561111423128, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 1963.0, 
+            "pos_y": -1446.0, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2561115705016, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }
+    ], 
+    "edges": [
+        {
+            "id": 1882897537456, 
+            "start": 1882897535944, 
+            "end": 1882897536448
+        }, 
+        {
+            "id": 1882897537512, 
+            "start": 1882897536168, 
+            "end": 1882897536784
+        }, 
+        {
+            "id": 1882897537624, 
+            "start": 1882897536504, 
+            "end": 1882897537904
+        }, 
+        {
+            "id": 1882897538128, 
+            "start": 1882897536896, 
+            "end": 1882897538016
+        }, 
+        {
+            "id": 1882897538240, 
+            "start": 1882897537960, 
+            "end": 1882897538296
+        }, 
+        {
+            "id": 1882897538408, 
+            "start": 1882897537848, 
+            "end": 1882897538744
+        }, 
+        {
+            "id": 1882896828344, 
+            "start": 1882897538800, 
+            "end": 1882883369952
+        }, 
+        {
+            "id": 1882889955760, 
+            "start": 1882883370120, 
+            "end": 1882885827888
+        }, 
+        {
+            "id": 1882885828280, 
+            "start": 1882896036752, 
+            "end": 1882885828336
+        }, 
+        {
+            "id": 1882951627776, 
+            "start": 1882885828224, 
+            "end": 1882885827944
+        }, 
+        {
+            "id": 1882951628560, 
+            "start": 1882889953576, 
+            "end": 1882885828168
+        }, 
+        {
+            "id": 1882889955368, 
+            "start": 1882897538464, 
+            "end": 1882891186528
+        }, 
+        {
+            "id": 1882754744616, 
+            "start": 1882754747640, 
+            "end": 1882754746632
+        }, 
+        {
+            "id": 1882889954752, 
+            "start": 1882754746072, 
+            "end": 1882835791376
+        }, 
+        {
+            "id": 1882896827448, 
+            "start": 1882890012320, 
+            "end": 1882835791432
+        }, 
+        {
+            "id": 1882754746296, 
+            "start": 1882754746072, 
+            "end": 1882895252896
+        }, 
+        {
+            "id": 1882897184584, 
+            "start": 1882895241568, 
+            "end": 1882895252448
+        }, 
+        {
+            "id": 1882923289288, 
+            "start": 1882754746072, 
+            "end": 1882922852080
+        }, 
+        {
+            "id": 1882754747584, 
+            "start": 1882679749712, 
+            "end": 1882922850736
+        }, 
+        {
+            "id": 1882895253120, 
+            "start": 1882895251048, 
+            "end": 1882923290576
+        }, 
+        {
+            "id": 1882896830080, 
+            "start": 1882895253400, 
+            "end": 1882835790984
+        }, 
+        {
+            "id": 1882930025416, 
+            "start": 1882890012320, 
+            "end": 1882912154064
+        }, 
+        {
+            "id": 1882912027648, 
+            "start": 1882835788520, 
+            "end": 1882912028712
+        }, 
+        {
+            "id": 1882912029272, 
+            "start": 1882897538520, 
+            "end": 1882874145368
+        }, 
+        {
+            "id": 1882849627944, 
+            "start": 1882874142792, 
+            "end": 1882849626096
+        }, 
+        {
+            "id": 1883006234072, 
+            "start": 1883006231832, 
+            "end": 1882849627776
+        }, 
+        {
+            "id": 1882874254784, 
+            "start": 1883006178976, 
+            "end": 1883006232784
+        }, 
+        {
+            "id": 1882849624976, 
+            "start": 1882924544520, 
+            "end": 1883006233568
+        }, 
+        {
+            "id": 1883098427064, 
+            "start": 1883131871016, 
+            "end": 1883140627424
+        }, 
+        {
+            "id": 1883131867376, 
+            "start": 1883140627872, 
+            "end": 1883098406864
+        }, 
+        {
+            "id": 1883098404960, 
+            "start": 1883140627760, 
+            "end": 1882491539352
+        }, 
+        {
+            "id": 1882928676760, 
+            "start": 1883138886456, 
+            "end": 1883098327696
+        }, 
+        {
+            "id": 1883010463616, 
+            "start": 1883098327136, 
+            "end": 1883140628040
+        }, 
+        {
+            "id": 1883138885672, 
+            "start": 1883006231328, 
+            "end": 1883110049832
+        }, 
+        {
+            "id": 1883131870568, 
+            "start": 1882491536552, 
+            "end": 1883140626864
+        }, 
+        {
+            "id": 1882912029776, 
+            "start": 1882930025416, 
+            "end": 1883098403336
+        }, 
+        {
+            "id": 1882917201904, 
+            "start": 1882491536552, 
+            "end": 1883098403616
+        }, 
+        {
+            "id": 1882917335840, 
+            "start": 1882917107864, 
+            "end": 1883110050672
+        }, 
+        {
+            "id": 1883006386696, 
+            "start": 1882917107864, 
+            "end": 1883098403056
+        }, 
+        {
+            "id": 1882917240336, 
+            "start": 1882897538576, 
+            "end": 1883138887184
+        }, 
+        {
+            "id": 1883009655360, 
+            "start": 1882491536552, 
+            "end": 1882930816952
+        }, 
+        {
+            "id": 1882930817176, 
+            "start": 1883098406808, 
+            "end": 1883011737136
+        }, 
+        {
+            "id": 1882930816840, 
+            "start": 1883006231328, 
+            "end": 1882930817008
+        }, 
+        {
+            "id": 1882930817344, 
+            "start": 1882930816896, 
+            "end": 1882930817232
+        }, 
+        {
+            "id": 1882930817400, 
+            "start": 1882491536552, 
+            "end": 1882930817512
+        }, 
+        {
+            "id": 1882930817736, 
+            "start": 1882930025416, 
+            "end": 1882930817568
+        }, 
+        {
+            "id": 1883189455168, 
+            "start": 1883189456288, 
+            "end": 1883189408432
+        }, 
+        {
+            "id": 1883189392944, 
+            "start": 1882897538632, 
+            "end": 1883189483112
+        }, 
+        {
+            "id": 1883189410616, 
+            "start": 1883189410840, 
+            "end": 1883142237264
+        }, 
+        {
+            "id": 1883189489504, 
+            "start": 1883189483504, 
+            "end": 1883142236760
+        }, 
+        {
+            "id": 1882492706264, 
+            "start": 1883142237880, 
+            "end": 1883183611800
+        }, 
+        {
+            "id": 1883189392216, 
+            "start": 1883189410840, 
+            "end": 1883183610400
+        }, 
+        {
+            "id": 1883011623960, 
+            "start": 1882897538688, 
+            "end": 1883015273104
+        }, 
+        {
+            "id": 1883015271592, 
+            "start": 1883015369112, 
+            "end": 1883015369168
+        }, 
+        {
+            "id": 1883015238600, 
+            "start": 1883015271200, 
+            "end": 1883015372752
+        }, 
+        {
+            "id": 1883015372416, 
+            "start": 1883015369000, 
+            "end": 1883015397952
+        }, 
+        {
+            "id": 1883015323096, 
+            "start": 1883015371240, 
+            "end": 1883015399352
+        }, 
+        {
+            "id": 1883189437888, 
+            "start": 1883015399968, 
+            "end": 1882842298520
+        }, 
+        {
+            "id": 1882930816280, 
+            "start": 1883015398960, 
+            "end": 1883015321024
+        }, 
+        {
+            "id": 1882842337856, 
+            "start": 1883011575992, 
+            "end": 1882842299584
+        }, 
+        {
+            "id": 1883189394680, 
+            "start": 1883011575992, 
+            "end": 1882924720536
+        }, 
+        {
+            "id": 1883011742128, 
+            "start": 1883015321248, 
+            "end": 1882911903136
+        }, 
+        {
+            "id": 1883015272208, 
+            "start": 1882911954928, 
+            "end": 1883015240560
+        }, 
+        {
+            "id": 1882842314288, 
+            "start": 1882911954928, 
+            "end": 1883189455112
+        }, 
+        {
+            "id": 1882948127992, 
+            "start": 1883015157464, 
+            "end": 1883132455680
+        }, 
+        {
+            "id": 1882948084064, 
+            "start": 1883132455288, 
+            "end": 1882490207144
+        }, 
+        {
+            "id": 1883251729184, 
+            "start": 1883259177504, 
+            "end": 1883259177952
+        }, 
+        {
+            "id": 1883251253656, 
+            "start": 1883259177840, 
+            "end": 1882842297512
+        }, 
+        {
+            "id": 1883251253376, 
+            "start": 1883015241624, 
+            "end": 1883259177784
+        }, 
+        {
+            "id": 1883251254216, 
+            "start": 1883259178008, 
+            "end": 1883189454048
+        }, 
+        {
+            "id": 1883251254384, 
+            "start": 1883251253768, 
+            "end": 1882911902632
+        }, 
+        {
+            "id": 1883189483728, 
+            "start": 1882911954928, 
+            "end": 1882911903696
+        }, 
+        {
+            "id": 1882948052136, 
+            "start": 1883251642496, 
+            "end": 1883156970016
+        }, 
+        {
+            "id": 1883156970072, 
+            "start": 1883015238320, 
+            "end": 1883165641808
+        }, 
+        {
+            "id": 1882840002688, 
+            "start": 1883165642704, 
+            "end": 1883251133072
+        }, 
+        {
+            "id": 1883157004416, 
+            "start": 1883251642496, 
+            "end": 1883251592160
+        }, 
+        {
+            "id": 1882911818416, 
+            "start": 1883015239440, 
+            "end": 1883251366040
+        }, 
+        {
+            "id": 1883011686472, 
+            "start": 1883132658016, 
+            "end": 1883251590144
+        }, 
+        {
+            "id": 1883304396728, 
+            "start": 1883251365648, 
+            "end": 1883304397008
+        }, 
+        {
+            "id": 1883304397064, 
+            "start": 1883251642496, 
+            "end": 1883304396616
+        }, 
+        {
+            "id": 2561496706576, 
+            "start": 2561115705016, 
+            "end": 1883006232392
+        }
+    ], 
+    "edge_type": "BEZIER"
+}

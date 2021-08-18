@@ -1,0 +1,5152 @@
+{
+    "id": 1638454182800, 
+    "vars": {
+        "Character": [
+            null, 
+            "CHARACTER"
+        ], 
+        "Root Control": [
+            null, 
+            "CONTROL"
+        ], 
+        "Body Component": [
+            null, 
+            "SIMPLE_COMPONENT"
+        ], 
+        "Barel Control": [
+            null, 
+            "CONTROL"
+        ], 
+        "Muzzle Control": [
+            null, 
+            "CONTROL"
+        ], 
+        "Left Front Leg": [
+            null, 
+            "FKIK_COMPONENT"
+        ]
+    }, 
+    "scene_width": 64000, 
+    "scene_height": 64000, 
+    "nodes": [
+        {
+            "id": 1638467106744, 
+            "node_id": 101, 
+            "title": "Input", 
+            "pos_x": -2297.1151733398433, 
+            "pos_y": -274.07812499999994, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1638467106632, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638467106800, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Asset Name", 
+                    "value": "Pawn"
+                }
+            ]
+        }, 
+        {
+            "id": 1638475822864, 
+            "node_id": 7, 
+            "title": "Character - Pawn (c)", 
+            "pos_x": -1898.0971679687493, 
+            "pos_y": -264.97509765625, 
+            "inputs": [
+                {
+                    "id": 1638475823200, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638475822808, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638475822472, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1638475822360, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "Pawn"
+                }, 
+                {
+                    "id": 1638289242712, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": "character"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1638475822192, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289242656, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289242544, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289242320, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289242264, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1638289241984, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "Pawn"
+                }, 
+                {
+                    "id": 1638289241816, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": "character"
+                }, 
+                {
+                    "id": 1638289241872, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Root Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289241536, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Deformation Rig", 
+                    "value": "deformation_rig"
+                }, 
+                {
+                    "id": 1638289241480, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Control Rig", 
+                    "value": "control_rig"
+                }, 
+                {
+                    "id": 1638289240808, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Geometry Group", 
+                    "value": "geometry_grp"
+                }
+            ]
+        }, 
+        {
+            "id": 1638454185320, 
+            "node_id": 5, 
+            "title": "Sequence", 
+            "pos_x": -1246.4691162109364, 
+            "pos_y": 84.61151123046832, 
+            "inputs": [
+                {
+                    "id": 1636423733544, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1638289148280, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638289146040, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564572760, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564572592, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564573264, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564572032, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1638289146096, 
+            "node_id": 2, 
+            "title": "Root Control", 
+            "pos_x": 365.3600311279296, 
+            "pos_y": -2262.0811462402326, 
+            "inputs": [
+                {
+                    "id": 1636564571920, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564573376, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "root"
+                }, 
+                {
+                    "id": 1636564572872, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1636564572984, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Guide", 
+                    "value": "c_body_00_jnt"
+                }, 
+                {
+                    "id": 1636564572200, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Delete Guide", 
+                    "value": false
+                }, 
+                {
+                    "id": 1636564573040, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": "c_body_00_ctls"
+                }, 
+                {
+                    "id": 1636564572648, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Attributes", 
+                    "value": "tr"
+                }, 
+                {
+                    "id": 1636564573152, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Position", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636564620288, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636564619840, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Pivot", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636564619392, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Color", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1636564620792, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Offset Group", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636564623256, 
+                    "index": 12, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Joint", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636564621856, 
+                    "index": 13, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Shape", 
+                    "value": "cube"
+                }, 
+                {
+                    "id": 1636564622304, 
+                    "index": 14, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1636564620960, 
+                    "index": 15, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564621464, 
+                    "index": 16, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Axis", 
+                    "value": "y"
+                }, 
+                {
+                    "id": 1636564620400, 
+                    "index": 17, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": 1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1636564573432, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564621520, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636564621968, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_root_00_ctl"
+                }
+            ]
+        }, 
+        {
+            "id": 1636562464160, 
+            "node_id": 2, 
+            "title": "Barel Control", 
+            "pos_x": 753.8365936279296, 
+            "pos_y": -2251.9834899902326, 
+            "inputs": [
+                {
+                    "id": 1638390384512, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638390384400, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "barel"
+                }, 
+                {
+                    "id": 1638390384456, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1638390386248, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Guide", 
+                    "value": "c_barel_00_jnt"
+                }, 
+                {
+                    "id": 1638390384344, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Delete Guide", 
+                    "value": false
+                }, 
+                {
+                    "id": 1638390382832, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": "c_root_00_ctl"
+                }, 
+                {
+                    "id": 1638390382664, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Attributes", 
+                    "value": "tr"
+                }, 
+                {
+                    "id": 1638390382776, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Position", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636410580048, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636410579936, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Pivot", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636410579992, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Color", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1636410579152, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Offset Group", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636410579768, 
+                    "index": 12, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Joint", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636410579600, 
+                    "index": 13, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Shape", 
+                    "value": "arrow"
+                }, 
+                {
+                    "id": 1636410579656, 
+                    "index": 14, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1636410579712, 
+                    "index": 15, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636410579880, 
+                    "index": 16, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Axis", 
+                    "value": "y"
+                }, 
+                {
+                    "id": 1636410579824, 
+                    "index": 17, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": 1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1638390382720, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636410580104, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636410578816, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_barel_00_ctl"
+                }
+            ]
+        }, 
+        {
+            "id": 1636415876120, 
+            "node_id": 2, 
+            "title": "Muzzle Control", 
+            "pos_x": 1166.3951873779297, 
+            "pos_y": -2232.588958740233, 
+            "inputs": [
+                {
+                    "id": 1636415876848, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1638390425640, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "muzzle"
+                }, 
+                {
+                    "id": 1638390426144, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1636417281832, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Guide", 
+                    "value": "c_barel_01_jnt"
+                }, 
+                {
+                    "id": 1636417281944, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Delete Guide", 
+                    "value": false
+                }, 
+                {
+                    "id": 1636417281440, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": "c_barel_00_ctl"
+                }, 
+                {
+                    "id": 1636406673704, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Attributes", 
+                    "value": "tr"
+                }, 
+                {
+                    "id": 1636406673760, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Position", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636406676000, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636406676672, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Match Pivot", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636406673536, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Color", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1636406674992, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Offset Group", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636406695024, 
+                    "index": 12, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Joint", 
+                    "value": true
+                }, 
+                {
+                    "id": 1636406694688, 
+                    "index": 13, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Shape", 
+                    "value": "cube"
+                }, 
+                {
+                    "id": 1636406694912, 
+                    "index": 14, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1636406694856, 
+                    "index": 15, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406694800, 
+                    "index": 16, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Axis", 
+                    "value": "x"
+                }, 
+                {
+                    "id": 1636406694968, 
+                    "index": 17, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Scale", 
+                    "value": 1.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1638390425360, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406694744, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406694240, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Transform", 
+                    "value": "c_muzzle_00_ctl"
+                }
+            ]
+        }, 
+        {
+            "id": 1638390424800, 
+            "node_id": 100, 
+            "title": "Add Orient Switch", 
+            "pos_x": 819.1676483154303, 
+            "pos_y": -1238.2520446777344, 
+            "inputs": [
+                {
+                    "id": 1636406695136, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406694296, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406695416, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Target", 
+                    "value": "c_world_space_loc"
+                }, 
+                {
+                    "id": 1636406697320, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Local Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636406677008, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default State", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1636406696480, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_orient_switch"
+        }, 
+        {
+            "id": 1636607622280, 
+            "node_id": 100, 
+            "title": "Get World Locator", 
+            "pos_x": -142.18879699706997, 
+            "pos_y": -1285.8067321777335, 
+            "inputs": [
+                {
+                    "id": 1636607622560, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607622056, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1636607622672, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607622840, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "World Locator", 
+                    "value": "c_world_space_loc"
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.get_world_locator"
+        }, 
+        {
+            "id": 1638390425752, 
+            "node_id": 15, 
+            "title": "Simple - body (c)", 
+            "pos_x": -431.2183380126953, 
+            "pos_y": -2147.646331787107, 
+            "inputs": [
+                {
+                    "id": 1636607622448, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607622336, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607621440, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1636607621720, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "body"
+                }, 
+                {
+                    "id": 1636607621608, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1636607652192, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607652360, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1636607622112, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607619200, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607620264, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607621664, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607622952, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "c"
+                }, 
+                {
+                    "id": 1636607623008, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "body"
+                }, 
+                {
+                    "id": 1636607623064, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1636607652416, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1636607651912, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1636457272376, 
+            "node_id": 13, 
+            "title": "String: c_body_00_jnt", 
+            "pos_x": 155.65299987792957, 
+            "pos_y": -1796.260833740233, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1636457272208, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "c_body_00_jnt"
+                }
+            ]
+        }, 
+        {
+            "id": 1636457272488, 
+            "node_id": 13, 
+            "title": "String: c_barel_00_jnt", 
+            "pos_x": 748.4264373779296, 
+            "pos_y": -1805.9043884277335, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1636457272656, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "c_barel_00_jnt"
+                }
+            ]
+        }, 
+        {
+            "id": 1636457271872, 
+            "node_id": 13, 
+            "title": "String: c_barel_01_jnt", 
+            "pos_x": 1156.4586639404292, 
+            "pos_y": -1787.349700927733, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1636457272432, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "c_barel_01_jnt"
+                }
+            ]
+        }, 
+        {
+            "id": 1776343045064, 
+            "node_id": 5, 
+            "title": "Setup Body Controls", 
+            "pos_x": -694.4263458251946, 
+            "pos_y": -1716.292572021483, 
+            "inputs": [
+                {
+                    "id": 1778085268952, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1778085268224, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1778085267552, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1778085267608, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1778085267496, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1778085267216, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1778085267664, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1776527648640, 
+            "node_id": 100, 
+            "title": "Get Group Ctls", 
+            "pos_x": 105.06095886230491, 
+            "pos_y": -2086.157073974608, 
+            "inputs": [
+                {
+                    "id": 1776527402152, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776527403552, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "AnimComponent", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776527403328, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776527402600, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Ctls Group", 
+                    "value": "c_body_00_ctls"
+                }
+            ], 
+            "func_signature": "luna_rig.core.component.AnimComponent.get_group_ctls"
+        }, 
+        {
+            "id": 1778085268896, 
+            "node_id": 100, 
+            "title": "Add Control", 
+            "pos_x": 517.83073425293, 
+            "pos_y": -1631.519622802733, 
+            "inputs": [
+                {
+                    "id": 1776351454096, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776352177624, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776351593808, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526485768, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "As Hook", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776527531368, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Bind Joint", 
+                    "value": "c_body_00_jnt"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776351453928, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.simple_component.SimpleComponent.add_existing_control"
+        }, 
+        {
+            "id": 1776526858504, 
+            "node_id": 100, 
+            "title": "Add Control", 
+            "pos_x": 764.9840545654293, 
+            "pos_y": -1631.165618896483, 
+            "inputs": [
+                {
+                    "id": 1776526692648, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526693824, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526692928, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526693712, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "As Hook", 
+                    "value": false
+                }, 
+                {
+                    "id": 1776526693432, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Bind Joint", 
+                    "value": "c_barel_00_jnt"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776526693488, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.simple_component.SimpleComponent.add_existing_control"
+        }, 
+        {
+            "id": 1776526858280, 
+            "node_id": 100, 
+            "title": "Add Control", 
+            "pos_x": 1018.94889831543, 
+            "pos_y": -1635.5249938964835, 
+            "inputs": [
+                {
+                    "id": 1776526693376, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526818552, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526816536, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526817096, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "As Hook", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776526815864, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Bind Joint", 
+                    "value": "c_barel_01_jnt"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776526692872, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.simple_component.SimpleComponent.add_existing_control"
+        }, 
+        {
+            "id": 1776350952808, 
+            "node_id": 5, 
+            "title": "Post Tasks", 
+            "pos_x": -722.4273681640616, 
+            "pos_y": 3278.8238525390593, 
+            "inputs": [
+                {
+                    "id": 1776526859456, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776526762840, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526763568, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526762560, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526762504, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526762392, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526762336, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1776526762896, 
+            "node_id": 9, 
+            "title": "Left Front Leg", 
+            "pos_x": 166.22619628906253, 
+            "pos_y": -661.2646484374998, 
+            "inputs": [
+                {
+                    "id": 1776526762168, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526763624, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526762112, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "l"
+                }, 
+                {
+                    "id": 1776526763792, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "front_leg"
+                }, 
+                {
+                    "id": 1776582968152, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776588504200, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776583000192, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776583001088, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Start Joint", 
+                    "value": "l_front_leg_00_jnt"
+                }, 
+                {
+                    "id": 1776583003104, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "End Joint", 
+                    "value": "l_front_leg_02_jnt"
+                }, 
+                {
+                    "id": 1776583002768, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "IK World Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776526742528, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default to IK", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776526744712, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Param Locator", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776526763512, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776582968544, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776582967984, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776588503024, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776588502744, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "l"
+                }, 
+                {
+                    "id": 1776588502576, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "front_leg"
+                }, 
+                {
+                    "id": 1776588502352, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776583004000, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776583002096, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776526744600, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook Start", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1776526744040, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook End", 
+                    "value": 1
+                }
+            ]
+        }, 
+        {
+            "id": 1776588566880, 
+            "node_id": 9, 
+            "title": "Right Front Leg", 
+            "pos_x": 139.5359039306625, 
+            "pos_y": -1.2969970703122726, 
+            "inputs": [
+                {
+                    "id": 1776588567720, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776539221072, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776539218608, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "r"
+                }, 
+                {
+                    "id": 1776539219000, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "front_leg"
+                }, 
+                {
+                    "id": 1776539219896, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776536917216, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776536916992, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776536917160, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Start Joint", 
+                    "value": "r_front_leg_00_jnt"
+                }, 
+                {
+                    "id": 1776536916600, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "End Joint", 
+                    "value": "r_front_leg_02_jnt"
+                }, 
+                {
+                    "id": 1776536919288, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "IK World Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776536917104, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default to IK", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776579415736, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Param Locator", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776539218776, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776539220904, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776539218552, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776539219616, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776536918840, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "r"
+                }, 
+                {
+                    "id": 1776536916656, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "front_leg"
+                }, 
+                {
+                    "id": 1776536917048, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776536916936, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776536919344, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776579415792, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook Start", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1776579414952, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook End", 
+                    "value": 1
+                }
+            ]
+        }, 
+        {
+            "id": 1776536918224, 
+            "node_id": 9, 
+            "title": "Left Back Leg", 
+            "pos_x": 139.45408630370943, 
+            "pos_y": 548.0167388916009, 
+            "inputs": [
+                {
+                    "id": 1776588559920, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776588558520, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776588560816, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "l"
+                }, 
+                {
+                    "id": 1776569473400, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "back_leg"
+                }, 
+                {
+                    "id": 1776569473512, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776569472728, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569473288, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776569473568, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Start Joint", 
+                    "value": "l_back_leg_00_jnt"
+                }, 
+                {
+                    "id": 1776569473792, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "End Joint", 
+                    "value": "l_back_leg_02_jnt"
+                }, 
+                {
+                    "id": 1776569473848, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "IK World Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776569473736, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default to IK", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776569473904, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Param Locator", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776588560088, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569473120, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569473456, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569472392, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569472952, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "l"
+                }, 
+                {
+                    "id": 1776569473232, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "back_leg"
+                }, 
+                {
+                    "id": 1776569473176, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776569472896, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569471160, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776569473960, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook Start", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1776569474072, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook End", 
+                    "value": 1
+                }
+            ]
+        }, 
+        {
+            "id": 1776569473064, 
+            "node_id": 9, 
+            "title": "Right Back Leg", 
+            "pos_x": 136.62185668945082, 
+            "pos_y": 1006.8672180175774, 
+            "inputs": [
+                {
+                    "id": 1776569474296, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474240, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474408, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Side", 
+                    "value": "r"
+                }, 
+                {
+                    "id": 1776569474464, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Name", 
+                    "value": "back_leg"
+                }, 
+                {
+                    "id": 1776569474576, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776569475024, 
+                    "index": 5, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474632, 
+                    "index": 6, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776584159416, 
+                    "index": 7, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Start Joint", 
+                    "value": "r_back_leg_00_jnt"
+                }, 
+                {
+                    "id": 1776584159472, 
+                    "index": 8, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "End Joint", 
+                    "value": "r_back_leg_02_jnt"
+                }, 
+                {
+                    "id": 1776584159528, 
+                    "index": 9, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "IK World Orient", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776584159584, 
+                    "index": 10, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default to IK", 
+                    "value": true
+                }, 
+                {
+                    "id": 1776584159640, 
+                    "index": 11, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Param Locator", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776569474352, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474520, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Self", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474744, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "ANIM_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474688, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776569474800, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Side", 
+                    "value": "r"
+                }, 
+                {
+                    "id": 1776569474912, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Name", 
+                    "value": "back_leg"
+                }, 
+                {
+                    "id": 1776569474968, 
+                    "index": 6, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Tag", 
+                    "value": ""
+                }, 
+                {
+                    "id": 1776584159304, 
+                    "index": 7, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776584159360, 
+                    "index": 8, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "In Hook", 
+                    "value": 0.0
+                }, 
+                {
+                    "id": 1776584159696, 
+                    "index": 9, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook Start", 
+                    "value": 0
+                }, 
+                {
+                    "id": 1776584159752, 
+                    "index": 10, 
+                    "position": 4, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 0, 
+                    "label": "Hook End", 
+                    "value": 1
+                }
+            ]
+        }, 
+        {
+            "id": 1776625074808, 
+            "node_id": 100, 
+            "title": "Hide last FK", 
+            "pos_x": 169.41528320312528, 
+            "pos_y": -313.5986328124993, 
+            "inputs": [
+                {
+                    "id": 1776625074976, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776625075144, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776625075032, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.hide_last_fk"
+        }, 
+        {
+            "id": 1776625075368, 
+            "node_id": 100, 
+            "title": "Hide last FK", 
+            "pos_x": 146.76788330078094, 
+            "pos_y": 365.5288696289065, 
+            "inputs": [
+                {
+                    "id": 1776625075592, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776625075760, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776625075704, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.hide_last_fk"
+        }, 
+        {
+            "id": 1776625075312, 
+            "node_id": 100, 
+            "title": "Hide last FK", 
+            "pos_x": 136.08093261718741, 
+            "pos_y": 876.722717285156, 
+            "inputs": [
+                {
+                    "id": 1776625075480, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776625075872, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776625075536, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.hide_last_fk"
+        }, 
+        {
+            "id": 1776625075648, 
+            "node_id": 100, 
+            "title": "Hide last FK", 
+            "pos_x": 136.66229248046943, 
+            "pos_y": 1322.2396850585935, 
+            "inputs": [
+                {
+                    "id": 1776625075984, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776625076264, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776625076208, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.hide_last_fk"
+        }, 
+        {
+            "id": 1776550508976, 
+            "node_id": 5, 
+            "title": "Setup Legs", 
+            "pos_x": -480.31616210937466, 
+            "pos_y": 12.145996093749773, 
+            "inputs": [
+                {
+                    "id": 1776718659712, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1776607743336, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776717707808, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776717706632, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776553619240, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776526742136, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 1776718652640, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1524871259808, 
+            "node_id": 100, 
+            "title": "Add Root Motion", 
+            "pos_x": 0.9924316406251137, 
+            "pos_y": 3471.8078613281227, 
+            "inputs": [
+                {
+                    "id": 1524871260704, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1524871260368, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1524871260312, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Follow Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1524871260256, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Root Joint", 
+                    "value": "c_root_00_jnt"
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1524871260480, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1524871260200, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Root Joint", 
+                    "value": "c_root_00_jnt"
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.add_root_motion"
+        }, 
+        {
+            "id": 1524871259528, 
+            "node_id": 13, 
+            "title": "String: c_root_00_jnt", 
+            "pos_x": -375.3356933593748, 
+            "pos_y": 3397.1984863281227, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1524871259584, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": "c_root_00_jnt"
+                }
+            ]
+        }, 
+        {
+            "id": 1525433003424, 
+            "node_id": 100, 
+            "title": "Attach To Skeleton", 
+            "pos_x": 377.1253662109374, 
+            "pos_y": 3586.941467285153, 
+            "inputs": [
+                {
+                    "id": 1525301500896, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525304845032, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525303084536, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.attach_to_skeleton"
+        }, 
+        {
+            "id": 1525301334480, 
+            "node_id": 100, 
+            "title": "Import Control Shapes", 
+            "pos_x": -228.8513183593749, 
+            "pos_y": 3744.0734863281227, 
+            "inputs": [
+                {
+                    "id": 1525429205088, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525413732136, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.importexport.control_shapes.import_asset_shapes"
+        }, 
+        {
+            "id": 1525514044864, 
+            "node_id": 100, 
+            "title": "Import Skin Weights", 
+            "pos_x": 55.523681640625, 
+            "pos_y": 3814.3859863281227, 
+            "inputs": [
+                {
+                    "id": 1525304721080, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525514065176, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.importexport.skin.import_all"
+        }, 
+        {
+            "id": 1525413092880, 
+            "node_id": 1, 
+            "title": "Branch: True", 
+            "pos_x": 363.3361816406251, 
+            "pos_y": 3817.5109863281227, 
+            "inputs": [
+                {
+                    "id": 1525413730232, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525413731520, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Condition", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525413731072, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "True", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525413731408, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "False", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1525433001688, 
+            "node_id": 14, 
+            "title": "Boolean: True", 
+            "pos_x": 69.976806640625, 
+            "pos_y": 3920.6359863281227, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1525433003816, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 0, 
+                    "label": "Value", 
+                    "value": true
+                }
+            ]
+        }, 
+        {
+            "id": 1525433053024, 
+            "node_id": 100, 
+            "title": "Import NgLayers", 
+            "pos_x": 613.3361816406249, 
+            "pos_y": 3823.7609863281227, 
+            "inputs": [
+                {
+                    "id": 1525432939800, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525432942208, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.importexport.nglayers.import_all"
+        }, 
+        {
+            "id": 1525432941144, 
+            "node_id": 100, 
+            "title": "Set Publish Mode", 
+            "pos_x": 365.0207519531249, 
+            "pos_y": 4058.1359863281236, 
+            "inputs": [
+                {
+                    "id": 1525432940136, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525430052008, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525412548392, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Publish Ready", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1525429123448, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.set_publish_mode"
+        }, 
+        {
+            "id": 1525433003928, 
+            "node_id": 102, 
+            "title": "Output", 
+            "pos_x": 721.7102050781249, 
+            "pos_y": 4103.912353515621, 
+            "inputs": [
+                {
+                    "id": 1525298945776, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1525298946000, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": []
+        }, 
+        {
+            "id": 1614928962560, 
+            "node_id": 103, 
+            "title": "Set Character", 
+            "pos_x": -1632.015624999999, 
+            "pos_y": -139.1718749999999, 
+            "inputs": [
+                {
+                    "id": 1616840665744, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1616840665688, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1616840665632, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2032242076024, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615090345128, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -739.4860839843743, 
+            "pos_y": -2113.953857421874, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615079981968, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1616841974280, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -164.77416992187506, 
+            "pos_y": -558.68896484375, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615087474448, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615082282008, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -93.42651367187494, 
+            "pos_y": 125.15869140624977, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615082311016, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615082281616, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -141.86401367187494, 
+            "pos_y": 640.7836914062493, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615082345080, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615082346536, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -110.61401367187494, 
+            "pos_y": 1132.9711914062489, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615082344800, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615084321536, 
+            "node_id": 103, 
+            "title": "Set Root Control", 
+            "pos_x": 1605.9123535156232, 
+            "pos_y": -2500.973388671873, 
+            "inputs": [
+                {
+                    "id": 1615234802856, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1615234804480, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1615234804424, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2032235158888, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Root Control"
+        }, 
+        {
+            "id": 1615084320192, 
+            "node_id": 104, 
+            "title": "Get Root Control", 
+            "pos_x": -256.6638183593749, 
+            "pos_y": 3554.3859863281227, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615082281784, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Root Control"
+        }, 
+        {
+            "id": 1615123711816, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -535.0720214843759, 
+            "pos_y": -1184.344482421874, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615123711536, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 1615123710528, 
+            "node_id": 103, 
+            "title": "Set Body Component", 
+            "pos_x": -129.15039062499966, 
+            "pos_y": -2019.6533203124977, 
+            "inputs": [
+                {
+                    "id": 1615123710976, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1615123710752, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Simple Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1615123711032, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2032242076696, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Body Component"
+        }, 
+        {
+            "id": 1615123711312, 
+            "node_id": 104, 
+            "title": "Get Body Component", 
+            "pos_x": 184.91210937499966, 
+            "pos_y": -1414.9658203124982, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615123710808, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Simple Component", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Body Component"
+        }, 
+        {
+            "id": 1615123710248, 
+            "node_id": 104, 
+            "title": "Get Body Component", 
+            "pos_x": -178.19213867187477, 
+            "pos_y": -657.6538085937494, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615123710472, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "SIMPLE_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Simple Component", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Body Component"
+        }, 
+        {
+            "id": 1615123712880, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": -312.8356933593743, 
+            "pos_y": 3927.17895507812, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1615123643304, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 2174990864736, 
+            "node_id": 103, 
+            "title": "Set Barel Control", 
+            "pos_x": 1610.740234374999, 
+            "pos_y": -2383.6845703124986, 
+            "inputs": [
+                {
+                    "id": 2174990866416, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2174990866528, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2174990866472, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2032245326736, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Barel Control"
+        }, 
+        {
+            "id": 2175147552384, 
+            "node_id": 103, 
+            "title": "Set Muzzle Control", 
+            "pos_x": 1611.4902343750005, 
+            "pos_y": -2257.8095703125005, 
+            "inputs": [
+                {
+                    "id": 2175147552496, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2175147552608, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2175147552552, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2032245476880, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Muzzle Control"
+        }, 
+        {
+            "id": 2174751564016, 
+            "node_id": 104, 
+            "title": "Get Root Control", 
+            "pos_x": 515.8027343749999, 
+            "pos_y": -1475.6376953125, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2174733623536, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Root Control"
+        }, 
+        {
+            "id": 2174733624768, 
+            "node_id": 104, 
+            "title": "Get Barel Control", 
+            "pos_x": 765.7402343749997, 
+            "pos_y": -1473.5595703124995, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2174733623648, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Barel Control"
+        }, 
+        {
+            "id": 2174733624712, 
+            "node_id": 104, 
+            "title": "Get Muzzle Control", 
+            "pos_x": 1030.9277343750005, 
+            "pos_y": -1467.9345703125, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2174733624152, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Muzzle Control"
+        }, 
+        {
+            "id": 2174733624096, 
+            "node_id": 104, 
+            "title": "Get Root Control", 
+            "pos_x": 427.8027343749999, 
+            "pos_y": -1146.6845703125, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2174733624432, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Root Control"
+        }, 
+        {
+            "id": 2174733624488, 
+            "node_id": 104, 
+            "title": "Get Barel Control", 
+            "pos_x": 426.5527343749999, 
+            "pos_y": -1299.4970703125, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2174747902864, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Barel Control"
+        }, 
+        {
+            "id": 2078294788136, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 236.71874999999977, 
+            "pos_y": 2069.726562499999, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2078613406832, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }, 
+        {
+            "id": 2078613406944, 
+            "node_id": 100, 
+            "title": "Get Children", 
+            "pos_x": 481.49999999999966, 
+            "pos_y": 1978.7499999999986, 
+            "inputs": [
+                {
+                    "id": 2078613408120, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078613408064, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078613409016, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Sample Type", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078613408456, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "By Tag", 
+                    "value": ""
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2078613407672, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078613408512, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "LIST", 
+                    "max_connections": 0, 
+                    "label": "Children", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.component.Component.get_meta_children"
+        }, 
+        {
+            "id": 2078146699896, 
+            "node_id": 103, 
+            "title": "Set Left Front Leg", 
+            "pos_x": 178.12499999999983, 
+            "pos_y": -201.56249999999983, 
+            "inputs": [
+                {
+                    "id": 2078294454224, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294454168, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2078294454112, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078295396192, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Left Front Leg"
+        }, 
+        {
+            "id": 2078613485664, 
+            "node_id": 104, 
+            "title": "Get Left Front Leg", 
+            "pos_x": 239.9999999999999, 
+            "pos_y": 2189.999999999998, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 2078294453832, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Left Front Leg"
+        }, 
+        {
+            "id": 2078294849520, 
+            "node_id": 105, 
+            "title": "For Each Component", 
+            "pos_x": 772.1249999999991, 
+            "pos_y": 1979.0624999999984, 
+            "inputs": [
+                {
+                    "id": 2078294848568, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294848680, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "LIST", 
+                    "max_connections": 1, 
+                    "label": "List", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2078294849184, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294848904, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Loop body", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294848848, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Item", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 2078294398176, 
+            "node_id": 5, 
+            "title": "Sequence", 
+            "pos_x": -230.46874999999974, 
+            "pos_y": 1910.1562499999977, 
+            "inputs": [
+                {
+                    "id": 2078294398120, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 2078294398064, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 0", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294398736, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 1", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294397672, 
+                    "index": 2, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 2", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294397392, 
+                    "index": 3, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 3", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294786736, 
+                    "index": 4, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 4", 
+                    "value": null
+                }, 
+                {
+                    "id": 2078294786792, 
+                    "index": 5, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "Then 5", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1959768970352, 
+            "node_id": 100, 
+            "title": "Get PV Control", 
+            "pos_x": 1410.7238769531236, 
+            "pos_y": 1888.1701660156236, 
+            "inputs": [
+                {
+                    "id": 1959100083112, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100081488, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959100081600, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100081712, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.get_pv_control"
+        }, 
+        {
+            "id": 1959100082104, 
+            "node_id": 100, 
+            "title": "Add World Space", 
+            "pos_x": 1548.2287597656236, 
+            "pos_y": 2138.1530761718727, 
+            "inputs": [
+                {
+                    "id": 1959100083840, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100082440, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100082496, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959100082608, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_world_space"
+        }, 
+        {
+            "id": 1959100081824, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 1841.9982910156236, 
+            "pos_y": 2128.6608886718727, 
+            "inputs": [
+                {
+                    "id": 1959100082048, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100081768, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1960075199768, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1960075199712, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "IK"
+                }, 
+                {
+                    "id": 1960075201728, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959100082384, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1959100082888, 
+            "node_id": 100, 
+            "title": "Get IK Control", 
+            "pos_x": 1715.2404785156236, 
+            "pos_y": 1885.5310058593727, 
+            "inputs": [
+                {
+                    "id": 1959743017088, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743017256, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743017144, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743017312, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.get_ik_control"
+        }, 
+        {
+            "id": 1959743017200, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 2355.7678222656236, 
+            "pos_y": 2109.5202636718727, 
+            "inputs": [
+                {
+                    "id": 1959743017480, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743017648, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743017704, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743017760, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "Body"
+                }, 
+                {
+                    "id": 1959743017816, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743017536, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1959743017592, 
+            "node_id": 100, 
+            "title": "Add Space", 
+            "pos_x": 2970.0012207031236, 
+            "pos_y": 2132.7844238281236, 
+            "inputs": [
+                {
+                    "id": 1960075202456, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100081656, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100083896, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Space Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959100082664, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Space Name", 
+                    "value": "Body"
+                }, 
+                {
+                    "id": 1959768970968, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959100082216, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_space"
+        }, 
+        {
+            "id": 1959100082552, 
+            "node_id": 100, 
+            "title": "Add World Space", 
+            "pos_x": 2657.9309082031236, 
+            "pos_y": 2113.5705566406227, 
+            "inputs": [
+                {
+                    "id": 1959743017424, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743018040, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743018096, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Use Offset Matrix", 
+                    "value": false
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743017368, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_world_space"
+        }, 
+        {
+            "id": 1959743017032, 
+            "node_id": 100, 
+            "title": "Get FK Control At", 
+            "pos_x": 2028.2922363281236, 
+            "pos_y": 1886.8835449218736, 
+            "inputs": [
+                {
+                    "id": 1959743018264, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743018432, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "FKIK Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743018488, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "NUMERIC", 
+                    "max_connections": 1, 
+                    "label": "Index", 
+                    "value": 0.0
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743018320, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743018544, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "FK Control", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.components.fkik_component.FKIKComponent.get_fk_control_at"
+        }, 
+        {
+            "id": 1959743018824, 
+            "node_id": 100, 
+            "title": "Get World Locator", 
+            "pos_x": 3316.7453613281255, 
+            "pos_y": 2111.3054199218727, 
+            "inputs": [
+                {
+                    "id": 1959743019104, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743019272, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 1, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743019160, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743019328, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "STRING", 
+                    "max_connections": 0, 
+                    "label": "World Locator", 
+                    "value": "c_world_space_loc"
+                }
+            ], 
+            "func_signature": "luna_rig.components.character_component.Character.get_world_locator"
+        }, 
+        {
+            "id": 1959743019216, 
+            "node_id": 100, 
+            "title": "Add Orient Switch", 
+            "pos_x": 3319.898681640622, 
+            "pos_y": 2233.948974609373, 
+            "inputs": [
+                {
+                    "id": 1959743019496, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743019664, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Control", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959743019720, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "STRING", 
+                    "max_connections": 1, 
+                    "label": "Orient Target", 
+                    "value": "c_world_space_loc"
+                }, 
+                {
+                    "id": 1959743019776, 
+                    "index": 3, 
+                    "position": 1, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 1, 
+                    "label": "Local Parent", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959614637784, 
+                    "index": 4, 
+                    "position": 1, 
+                    "data_type": "BOOLEAN", 
+                    "max_connections": 1, 
+                    "label": "Default State", 
+                    "value": true
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959743019552, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }
+            ], 
+            "func_signature": "luna_rig.core.control.Control.add_orient_switch"
+        }, 
+        {
+            "id": 1959743019608, 
+            "node_id": 104, 
+            "title": "Get Root Control", 
+            "pos_x": 2131.4758300781236, 
+            "pos_y": 2219.7741699218727, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1959743019384, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CONTROL", 
+                    "max_connections": 0, 
+                    "label": "Control", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Root Control"
+        }, 
+        {
+            "id": 1960075202008, 
+            "node_id": 3, 
+            "title": "Get Component As", 
+            "pos_x": 1117.187499999999, 
+            "pos_y": 2021.5624999999986, 
+            "inputs": [
+                {
+                    "id": 1959768970576, 
+                    "index": 0, 
+                    "position": 1, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959618601592, 
+                    "index": 1, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Component", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959618603104, 
+                    "index": 2, 
+                    "position": 1, 
+                    "data_type": "COMPONENT", 
+                    "max_connections": 1, 
+                    "label": "Sample Type", 
+                    "value": null
+                }
+            ], 
+            "outputs": [
+                {
+                    "id": 1959618579536, 
+                    "index": 0, 
+                    "position": 4, 
+                    "data_type": "EXEC", 
+                    "max_connections": 1, 
+                    "label": "", 
+                    "value": null
+                }, 
+                {
+                    "id": 1959767185616, 
+                    "index": 1, 
+                    "position": 4, 
+                    "data_type": "FKIK_COMPONENT", 
+                    "max_connections": 0, 
+                    "label": "Cast Result", 
+                    "value": null
+                }
+            ]
+        }, 
+        {
+            "id": 1959768886184, 
+            "node_id": 104, 
+            "title": "Get Character", 
+            "pos_x": 3313.7902832031255, 
+            "pos_y": 2013.5827636718745, 
+            "inputs": [], 
+            "outputs": [
+                {
+                    "id": 1959768885792, 
+                    "index": 0, 
+                    "position": 5, 
+                    "data_type": "CHARACTER", 
+                    "max_connections": 0, 
+                    "label": "Character", 
+                    "value": null
+                }
+            ], 
+            "var_name": "Character"
+        }
+    ], 
+    "edges": [
+        {
+            "id": 1638475822920, 
+            "start": 1638467106632, 
+            "end": 1638475823200
+        }, 
+        {
+            "id": 1638475823144, 
+            "start": 1638467106800, 
+            "end": 1638475822360
+        }, 
+        {
+            "id": 1636406697824, 
+            "start": 1636607622672, 
+            "end": 1636406695136
+        }, 
+        {
+            "id": 1636607622392, 
+            "start": 1636607622840, 
+            "end": 1636406695416
+        }, 
+        {
+            "id": 1636457272544, 
+            "start": 1636457272208, 
+            "end": 1636564572984
+        }, 
+        {
+            "id": 1636457272824, 
+            "start": 1636457272656, 
+            "end": 1638390386248
+        }, 
+        {
+            "id": 1636457272880, 
+            "start": 1636457272432, 
+            "end": 1636417281832
+        }, 
+        {
+            "id": 1776343047864, 
+            "start": 1638289148280, 
+            "end": 1778085268952
+        }, 
+        {
+            "id": 1778085267720, 
+            "start": 1778085268224, 
+            "end": 1636607622448
+        }, 
+        {
+            "id": 1778085266880, 
+            "start": 1778085267552, 
+            "end": 1636564571920
+        }, 
+        {
+            "id": 1776527648920, 
+            "start": 1776527402600, 
+            "end": 1636564573040
+        }, 
+        {
+            "id": 1776527402824, 
+            "start": 1636607619200, 
+            "end": 1776527403552
+        }, 
+        {
+            "id": 1776351453872, 
+            "start": 1636457272208, 
+            "end": 1776527531368
+        }, 
+        {
+            "id": 1776526857328, 
+            "start": 1636457272656, 
+            "end": 1776526693432
+        }, 
+        {
+            "id": 1776526816424, 
+            "start": 1636457272432, 
+            "end": 1776526815864
+        }, 
+        {
+            "id": 1776351453592, 
+            "start": 1778085267608, 
+            "end": 1776351454096
+        }, 
+        {
+            "id": 1776527648360, 
+            "start": 1776351453928, 
+            "end": 1776526692648
+        }, 
+        {
+            "id": 1776144690872, 
+            "start": 1776526693488, 
+            "end": 1776526693376
+        }, 
+        {
+            "id": 1776353168464, 
+            "start": 1636564621968, 
+            "end": 1638390382832
+        }, 
+        {
+            "id": 1776526692592, 
+            "start": 1636410578816, 
+            "end": 1636417281440
+        }, 
+        {
+            "id": 1776145256400, 
+            "start": 1638390382720, 
+            "end": 1636415876848
+        }, 
+        {
+            "id": 1776584160088, 
+            "start": 1776588502576, 
+            "end": 1776539219000
+        }, 
+        {
+            "id": 1776584160200, 
+            "start": 1776569473232, 
+            "end": 1776569474464
+        }, 
+        {
+            "id": 1776144690256, 
+            "start": 1776539218552, 
+            "end": 1776588558520
+        }, 
+        {
+            "id": 1776144689416, 
+            "start": 1776569473456, 
+            "end": 1776569474240
+        }, 
+        {
+            "id": 1776607778408, 
+            "start": 1776582968544, 
+            "end": 1776625075144
+        }, 
+        {
+            "id": 1776625075816, 
+            "start": 1776539220904, 
+            "end": 1776625075760
+        }, 
+        {
+            "id": 1776625076152, 
+            "start": 1776569473120, 
+            "end": 1776625075872
+        }, 
+        {
+            "id": 1776625075928, 
+            "start": 1776569474520, 
+            "end": 1776625076264
+        }, 
+        {
+            "id": 1776718766992, 
+            "start": 1636564572760, 
+            "end": 1776718659712
+        }, 
+        {
+            "id": 1776621661600, 
+            "start": 1776607743336, 
+            "end": 1776526762168
+        }, 
+        {
+            "id": 3092176603176, 
+            "start": 1776526763512, 
+            "end": 1776625074976
+        }, 
+        {
+            "id": 3092282703768, 
+            "start": 1776717707808, 
+            "end": 1776588567720
+        }, 
+        {
+            "id": 3092282703264, 
+            "start": 1776588560088, 
+            "end": 1776625075480
+        }, 
+        {
+            "id": 3092282703208, 
+            "start": 1776569474352, 
+            "end": 1776625075984
+        }, 
+        {
+            "id": 1524871260424, 
+            "start": 1524871259584, 
+            "end": 1524871260256
+        }, 
+        {
+            "id": 1525412546768, 
+            "start": 1776526762840, 
+            "end": 1524871260704
+        }, 
+        {
+            "id": 1525429114528, 
+            "start": 1524871260480, 
+            "end": 1525301500896
+        }, 
+        {
+            "id": 1525429277976, 
+            "start": 1776526763568, 
+            "end": 1525429205088
+        }, 
+        {
+            "id": 1525412385568, 
+            "start": 1525413732136, 
+            "end": 1525304721080
+        }, 
+        {
+            "id": 1525429115424, 
+            "start": 1525433003816, 
+            "end": 1525413731520
+        }, 
+        {
+            "id": 1525432938568, 
+            "start": 1525514065176, 
+            "end": 1525413730232
+        }, 
+        {
+            "id": 1525432940360, 
+            "start": 1525413731408, 
+            "end": 1525432939800
+        }, 
+        {
+            "id": 1525430053856, 
+            "start": 1776526762560, 
+            "end": 1525432940136
+        }, 
+        {
+            "id": 1525412546488, 
+            "start": 1525433003816, 
+            "end": 1525412548392
+        }, 
+        {
+            "id": 1525512490064, 
+            "start": 1525429123448, 
+            "end": 1525298945776
+        }, 
+        {
+            "id": 1965164443912, 
+            "start": 1776539218776, 
+            "end": 1776625075592
+        }, 
+        {
+            "id": 1965237026656, 
+            "start": 1776582967984, 
+            "end": 1776539221072
+        }, 
+        {
+            "id": 1616863914864, 
+            "start": 1638475822192, 
+            "end": 1616840665744
+        }, 
+        {
+            "id": 1616841936968, 
+            "start": 1616840665632, 
+            "end": 1636423733544
+        }, 
+        {
+            "id": 1616853472424, 
+            "start": 1638289242656, 
+            "end": 1616840665688
+        }, 
+        {
+            "id": 1616841937920, 
+            "start": 1615079981968, 
+            "end": 1636607652192
+        }, 
+        {
+            "id": 1615172950560, 
+            "start": 1615087474448, 
+            "end": 1776588504200
+        }, 
+        {
+            "id": 1615082311072, 
+            "start": 1615082311016, 
+            "end": 1776536917216
+        }, 
+        {
+            "id": 1616841975232, 
+            "start": 1615082345080, 
+            "end": 1776569472728
+        }, 
+        {
+            "id": 1615082347936, 
+            "start": 1615082344800, 
+            "end": 1776569475024
+        }, 
+        {
+            "id": 1615234804088, 
+            "start": 1636564621520, 
+            "end": 1615234804480
+        }, 
+        {
+            "id": 1615082310792, 
+            "start": 1615082281784, 
+            "end": 1524871260312
+        }, 
+        {
+            "id": 1616853472424, 
+            "start": 1615123711536, 
+            "end": 1636607622056
+        }, 
+        {
+            "id": 1615123711648, 
+            "start": 1636607619200, 
+            "end": 1615123710752
+        }, 
+        {
+            "id": 1615123710696, 
+            "start": 1615123711032, 
+            "end": 1776527402152
+        }, 
+        {
+            "id": 1615123710584, 
+            "start": 1636607622112, 
+            "end": 1615123710976
+        }, 
+        {
+            "id": 1615123710640, 
+            "start": 1615123710808, 
+            "end": 1776352177624
+        }, 
+        {
+            "id": 1615123712320, 
+            "start": 1615123710808, 
+            "end": 1776526693824
+        }, 
+        {
+            "id": 1615123711480, 
+            "start": 1615123710808, 
+            "end": 1776526818552
+        }, 
+        {
+            "id": 1615123711200, 
+            "start": 1615123710472, 
+            "end": 1776526763624
+        }, 
+        {
+            "id": 1615123711256, 
+            "start": 1615123643304, 
+            "end": 1525430052008
+        }, 
+        {
+            "id": 1615123644256, 
+            "start": 1615123643304, 
+            "end": 1525298946000
+        }, 
+        {
+            "id": 1615123643584, 
+            "start": 1615123643304, 
+            "end": 1525304845032
+        }, 
+        {
+            "id": 1615123640392, 
+            "start": 1615123643304, 
+            "end": 1524871260368
+        }, 
+        {
+            "id": 2174990866136, 
+            "start": 1776717706632, 
+            "end": 1776588559920
+        }, 
+        {
+            "id": 2174990819904, 
+            "start": 1776553619240, 
+            "end": 1776569474296
+        }, 
+        {
+            "id": 2175001060632, 
+            "start": 1636564573432, 
+            "end": 1638390384512
+        }, 
+        {
+            "id": 2174733611920, 
+            "start": 1638390425360, 
+            "end": 1615234802856
+        }, 
+        {
+            "id": 2174733611920, 
+            "start": 1615234804424, 
+            "end": 2174990866416
+        }, 
+        {
+            "id": 2175146883784, 
+            "start": 1636410580104, 
+            "end": 2174990866528
+        }, 
+        {
+            "id": 2175147552216, 
+            "start": 1636406694744, 
+            "end": 2175147552608
+        }, 
+        {
+            "id": 2174751563960, 
+            "start": 2174990866472, 
+            "end": 2175147552496
+        }, 
+        {
+            "id": 2174751563904, 
+            "start": 2174733623536, 
+            "end": 1776351593808
+        }, 
+        {
+            "id": 2175147358360, 
+            "start": 1778085267496, 
+            "end": 1636607622560
+        }, 
+        {
+            "id": 2174733624264, 
+            "start": 2174733623648, 
+            "end": 1776526692928
+        }, 
+        {
+            "id": 2175147358472, 
+            "start": 2174733624152, 
+            "end": 1776526816536
+        }, 
+        {
+            "id": 2175147358640, 
+            "start": 2174733624432, 
+            "end": 1636406697320
+        }, 
+        {
+            "id": 2174554957976, 
+            "start": 2174747902864, 
+            "end": 1636406694296
+        }, 
+        {
+            "id": 2078613483984, 
+            "start": 1636564572032, 
+            "end": 1776526859456
+        }, 
+        {
+            "id": 2078296210176, 
+            "start": 2078613406832, 
+            "end": 2078613408064
+        }, 
+        {
+            "id": 2078152535064, 
+            "start": 1776625075032, 
+            "end": 2078294454224
+        }, 
+        {
+            "id": 2078146701184, 
+            "start": 1776582968544, 
+            "end": 2078294454168
+        }, 
+        {
+            "id": 2078613486840, 
+            "start": 2078294453832, 
+            "end": 2078613409016
+        }, 
+        {
+            "id": 2078294848960, 
+            "start": 2078613407672, 
+            "end": 2078294848568
+        }, 
+        {
+            "id": 2078294849408, 
+            "start": 2078613408512, 
+            "end": 2078294848680
+        }, 
+        {
+            "id": 2078613486000, 
+            "start": 2078294398064, 
+            "end": 2078613408120
+        }, 
+        {
+            "id": 2078294398680, 
+            "start": 1636564573264, 
+            "end": 2078294398120
+        }, 
+        {
+            "id": 1959743019440, 
+            "start": 1959100081712, 
+            "end": 1959100082440
+        }, 
+        {
+            "id": 1959743019048, 
+            "start": 1959100081712, 
+            "end": 1959100081768
+        }, 
+        {
+            "id": 1959743018992, 
+            "start": 1959743017312, 
+            "end": 1960075199768
+        }, 
+        {
+            "id": 1959743018656, 
+            "start": 1959100081600, 
+            "end": 1959743017088
+        }, 
+        {
+            "id": 1959743018600, 
+            "start": 1959100082608, 
+            "end": 1959100082048
+        }, 
+        {
+            "id": 1959743018208, 
+            "start": 1959100082384, 
+            "end": 1959743017480
+        }, 
+        {
+            "id": 1959743018152, 
+            "start": 1959100081712, 
+            "end": 1959743017648
+        }, 
+        {
+            "id": 1959743017984, 
+            "start": 1959743017536, 
+            "end": 1959743017424
+        }, 
+        {
+            "id": 1959743019832, 
+            "start": 1959743017312, 
+            "end": 1959743018040
+        }, 
+        {
+            "id": 1959743019888, 
+            "start": 1959743017312, 
+            "end": 1959100081656
+        }, 
+        {
+            "id": 1959743019944, 
+            "start": 1959743017144, 
+            "end": 1959743018264
+        }, 
+        {
+            "id": 1959743020280, 
+            "start": 1959743018544, 
+            "end": 1959743019664
+        }, 
+        {
+            "id": 1959743020392, 
+            "start": 1959743019328, 
+            "end": 1959743019720
+        }, 
+        {
+            "id": 1959743020448, 
+            "start": 1959743017368, 
+            "end": 1960075202456
+        }, 
+        {
+            "id": 1959743020504, 
+            "start": 1959743019384, 
+            "end": 1959743017704
+        }, 
+        {
+            "id": 1959743020560, 
+            "start": 1959743019384, 
+            "end": 1959100083896
+        }, 
+        {
+            "id": 1959614637336, 
+            "start": 2078294848904, 
+            "end": 1959768970576
+        }, 
+        {
+            "id": 1959767185336, 
+            "start": 2078294848848, 
+            "end": 1959618601592
+        }, 
+        {
+            "id": 1959764538592, 
+            "start": 2078294453832, 
+            "end": 1959618603104
+        }, 
+        {
+            "id": 1959618602880, 
+            "start": 1959618579536, 
+            "end": 1959100083112
+        }, 
+        {
+            "id": 1960075202176, 
+            "start": 1959767185616, 
+            "end": 1959100081488
+        }, 
+        {
+            "id": 1960075202120, 
+            "start": 1959767185616, 
+            "end": 1959743017256
+        }, 
+        {
+            "id": 1959768940496, 
+            "start": 1959767185616, 
+            "end": 1959743018432
+        }, 
+        {
+            "id": 1959764538928, 
+            "start": 1959768885792, 
+            "end": 1959743019272
+        }, 
+        {
+            "id": 1959618602936, 
+            "start": 1959743018320, 
+            "end": 1959100083840
+        }, 
+        {
+            "id": 1959764538648, 
+            "start": 1959100082216, 
+            "end": 1959743019104
+        }, 
+        {
+            "id": 1959764538704, 
+            "start": 1959743019160, 
+            "end": 1959743019496
+        }
+    ], 
+    "edge_type": "BEZIER"
+}
