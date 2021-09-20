@@ -7,14 +7,14 @@
 - **python_builds** - rigs build scripts that use Luna's Python API. Can be run directly from Maya's script editor or external IDE over command port.
 - **rigging_project** - luna rigging project. Use builder dialog and set current project to this folder before running any rig builds. Running build from rig graph also required asset to be set prior to graph execution.
 
-## Instuctions (python build)
+## Instructions (python build)
 ---
 - Have luna_plugin loaded via Maya's plugin manager.
 - Open Builder dialog from Luna menu.
 - Set project to *rigging_project* directory
 - Open rig file in Maya's script editor and execute.
   
-## Instuctions (graph build)
+## Instructions (graph build)
 ---
 - Have luna_plugin loaded via Maya's plugin manager.
 - Open Builder dilaog from Luna menu.
