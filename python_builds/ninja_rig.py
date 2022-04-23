@@ -3,6 +3,7 @@ import pymel.core as pm
 import luna_rig
 from luna_rig.core import pybuild
 from luna_rig import importexport
+from luna_rig.functions import common_setup
 
 
 class RigBuild(pybuild.PyBuild):
@@ -13,8 +14,11 @@ class RigBuild(pybuild.PyBuild):
         importexport.BlendShapeManager.import_all()
         self.spine = luna_rig.components.FKIKSpineComponent.create(start_joint="c_pelvis_00_jnt",
                                                                    end_joint="c_spine_03_jnt",
-                                                                   character=self.character)
-        self.spine_stretch = luna_rig.components.IKSplineStretchComponent.create(self.spine, switch_control=self.spine.root_control)
+                                                                   character=self.character,
+                                                                   forward_axis="x",
+                                                                   up_axis="y")
+        self.spine_stretch = luna_rig.components.IKSplineStretchComponent.create(
+            self.spine, switch_control=self.spine.root_control)
 
         self.left_clavicle = luna_rig.components.FKComponent.create(side="l",
                                                                     name="clavicle",
@@ -162,34 +166,21 @@ class RigBuild(pybuild.PyBuild):
         # Clavicle add-ons
         self.left_clavicle.add_auto_aim(self.left_arm.ik_control, default_value=5.0)
         self.right_clavicle.add_auto_aim(self.right_arm.ik_control, default_value=5.0)
+
+        # Arms legs FK0 addons:
+        self.left_arm.add_fk_orient_switch()
+        self.right_arm.add_fk_orient_switch()
+        self.left_leg.add_fk_orient_switch()
+        self.right_leg.add_fk_orient_switch()
+
         # Head add-on
         self.head.add_orient_attr()
 
         # Body spaces
         # Arms
-        self.left_arm.pv_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_arm.pv_control.add_space(self.left_arm.ik_control, "IK", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_arm.pv_control.add_space(self.spine.chest_control, "Chest", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_arm.ik_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_arm.ik_control.add_space(self.spine.chest_control, "Chest", via_matrix=self.MATRIX_SPACE_METHOD)
-
-        self.right_arm.pv_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_arm.pv_control.add_space(self.right_arm.ik_control, "IK", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_arm.pv_control.add_space(self.spine.chest_control, "Chest", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_arm.ik_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_arm.ik_control.add_space(self.spine.chest_control, "Chest", via_matrix=self.MATRIX_SPACE_METHOD)
-        # Legs
-        self.left_leg.pv_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_leg.pv_control.add_space(self.left_leg.ik_control, "IK", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_leg.pv_control.add_space(self.spine.hips_control, "Hips", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_leg.ik_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.left_leg.ik_control.add_space(self.spine.hips_control, "Hips", via_matrix=self.MATRIX_SPACE_METHOD)
-
-        self.right_leg.pv_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_leg.pv_control.add_space(self.right_leg.ik_control, "IK", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_leg.pv_control.add_space(self.spine.hips_control, "Hips", via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_leg.ik_control.add_world_space(via_matrix=self.MATRIX_SPACE_METHOD)
-        self.right_leg.ik_control.add_space(self.spine.hips_control, "Hips", via_matrix=self.MATRIX_SPACE_METHOD)
+        common_setup.basic_limbs_spaces(arm_components=[self.left_arm, self.right_arm],
+                                        leg_components=[self.left_leg, self.right_leg],
+                                        spine=self.spine)
 
         # Attach to skeleton
         self.character.add_root_motion(self.spine.root_control, root_joint="c_root_00_jnt")
@@ -199,7 +190,7 @@ class RigBuild(pybuild.PyBuild):
         # Data import
         importexport.DrivenPoseManager.import_all()
         importexport.SkinManager.import_all()
-        importexport.NgLayersManager.import_all()
+        # importexport.NgLayersManager.import_all()
 
     def post(self):
         importexport.CtlShapeManager.import_asset_shapes()
